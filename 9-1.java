@@ -1,3 +1,4 @@
+// No 5
 public class MobilListrik extends Mobil {
     private int lamaRecharge;
 
@@ -19,5 +20,19 @@ public class MobilListrik extends Mobil {
 
     public int getLamaRecharge() {
         return lamaRecharge;
+    }
+}
+
+// No 6
+public class Lingkaran extends Bangun {
+    private double radius;
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+        super.setLuas(Math.PI * radius * radius);
+    }
+
+    public double getRadius() {
+        return radius;
     }
 }
